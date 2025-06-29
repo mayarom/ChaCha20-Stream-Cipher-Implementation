@@ -126,19 +126,19 @@ with open('data.bin', 'rb') as f:
 
 The test suite provides comprehensive validation through multiple approaches:
 
-### ✅ RFC 8439 Compliance
+### RFC 8439 Compliance
 All official test vectors from RFC 8439 are implemented and verified:
 - Quarter-round function test (Section 2.2.1)
 - Block function test (Section 2.3.2) 
 - Encryption test (Section 2.4.2)
 
-### 🔍 Property Testing
+### Property Testing
 Cryptographic properties are verified:
 - Encryption/decryption symmetry
 - Deterministic behavior with identical inputs
 - Proper handling of various input sizes
 
-### 📊 Performance Analysis
+### Performance Analysis
 Benchmarking validates implementation efficiency:
 - Throughput measurement across different data sizes
 - Scalability analysis demonstrating linear time complexity
@@ -165,7 +165,7 @@ The implementation prioritizes clarity and correctness over raw performance, mak
 
 ## Security Analysis
 
-### 🛡️ Cryptographic Strength
+### Cryptographic Strength
 
 ChaCha20 provides several security advantages:
 
@@ -174,7 +174,7 @@ ChaCha20 provides several security advantages:
 - **Resistance to timing attacks**: ARX operations provide constant-time execution
 - **Strong diffusion**: Complete avalanche effect ensures output unpredictability
 
-### 🔧 Implementation Security
+### Implementation Security
 
 This educational implementation demonstrates:
 
@@ -183,7 +183,7 @@ This educational implementation demonstrates:
 - Appropriate use of cryptographically secure randomness
 - Understanding of stream cipher security requirements
 
-### ⚠️ Known Limitations
+### Known Limitations
 
 As an educational implementation, certain production security features are not included:
 
